@@ -3,11 +3,11 @@
 import { useEffect, useState, startTransition } from "react";
 import { useRouter } from "next/navigation";
 
-type LayputProps = {
+type LayoutProps = {
   children: React.ReactNode;
 };
 
-export default function AuthLayout({ children }: LayputProps) {
+export default function AuthLayout({ children }: LayoutProps) {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 

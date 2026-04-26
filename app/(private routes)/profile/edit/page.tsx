@@ -30,7 +30,7 @@ const EditProfilePage = () => {
   };
 
   const hanleCancel = () => {
-    router.push("/profile");
+    router.back();
   };
 
   return user ? (
